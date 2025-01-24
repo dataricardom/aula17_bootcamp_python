@@ -41,7 +41,7 @@ O projeto é dividido em três arquivos principais:
 Não anotada (Non-annotated): Definindo as colunas e os relacionamentos de forma mais explícita, sem o uso das anotações de tipo.
 Este arquivo inclui a criação de tabelas com chaves primárias e estrangeiras, exemplificando um relacionamento entre tabelas, como o caso de um Estado e suas Cidades.
 
-- inserir_dados.py: Arquivo responsável pela inserção de dados nas tabelas criadas. Através deste arquivo, foi possível adicionar registros ao banco de dados, utilizando o SQLAlchemy para gerenciar as transações.
+**inserir_dados.py:** Arquivo responsável pela inserção de dados nas tabelas criadas. Através deste arquivo, foi possível adicionar registros ao banco de dados, utilizando o SQLAlchemy para gerenciar as transações.
 
 - Tecnologias Utilizadas
 SQLAlchemy: ORM utilizado para definir o modelo de dados e interagir com o banco de dados SQLite.
